@@ -13,7 +13,10 @@ $('button')
 
 var checkcombo = function() {
   // Each time a button is clicked, check the combo:
-  // If no number are correct, the background should be #d27666 
+  // If no number are correct, the background should be #d27666
+// if(($('.one').text() != dial1) || ($('.two').text() != dial2) || ($('.three').text() != dial3)){
+//     $('body').css('background-color','#d27666');}
+
   // If any one number is correct, the background should be #e69458
   if(($('.one').text() == dial1) || ($('.two').text() == dial2) || ($('.three').text() == dial3)){
     $('body').css('background-color','#e69458');}
